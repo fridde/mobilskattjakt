@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:ignore="RtlHardcoded"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/upper_box"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/big_text"
+            android:layout_width="190dp"
+            android:layout_height="234dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/placeholder"
+            android:textColor="@color/white"
+            android:autoSizeTextType="uniform"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/small_text"
+            android:layout_width="190dp"
+
+            android:layout_height="50dp"
+            android:layout_below="@id/big_text"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/placeholder"
+            android:textColor="@android:color/white"
+            android:autoSizeTextType="uniform" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/upper_box"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        >
+
+
+        <TextView
+            android:id="@+id/finger_right"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/finger_right"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/finger_down"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_below="@id/finger_right"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/finger_down"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/blue"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/finger_down"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blue"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/red"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_toRightOf="@id/finger_right"
+
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="50sp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:cardCornerRadius="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/red"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/animal_emoji_svg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="#444444"
+                app:srcCompat="@drawable/animal_02"
+                android:contentDescription="@string/animal_description" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/remaining_animal_count"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:gravity="left"
+            android:text=""
+            android:textSize="25sp" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+

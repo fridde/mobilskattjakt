@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Mobilskattjakt</string>
+    <string name="clear">Clear</string>
+    <string name="goto_edit_coord">Redigera koordinater</string>
+
+    <string name="coord_writer_active">coord_writer_active</string>
+    <string name="user_is_admin">user_is_admin</string>
+    <string name="coord_data">coord_data</string>
+
+    <string name="smiley">&#128522;</string>
+    <string name="winner">&#127881;&#127941;&#129351;&#127942;&#127919;</string>
+    <string name="see_no_evil_monkey">&#128584;</string>
+    <string name="selfie">&#129331;</string>
+    <string name="party">&#127881;</string>
+    <string name="trophy">&#127942;</string>
+    <string name="medal">&#127941;</string>
+    <string name="medal_first">&#129351;</string>
+    <string name="dart_hit">&#127919;</string>
+    <string name="flag">&#128681;</string>
+    <string name="finger_right">&#128073;</string>
+    <string name="finger_down">&#128071;</string>
+    <string name="thumb_up">&#128077;</string>
+    <string name="facepalm">&#129318;</string>
+    <string name="compass">&#129517;</string>
+    <string name="trumpet">&#127930;</string>
+    <string name="crayon">&#128397;</string>
+
+<!--    <string name="animal_1">&#128039;</string>-->
+<!--    <string name="animal_2">&#128008;</string>-->
+<!--    <string name="animal_3">&#129419;</string>-->
+<!--    <string name="animal_4">&#128034;</string>-->
+<!--    <string name="animal_5">&#128024;</string>-->
+<!--    <string name="animal_6">&#128375;</string>-->
+<!--    <string name="animal_7">&#128007;</string>-->
+<!--    <string name="animal_8">&#129417;</string>-->
+<!--    <string name="animal_9">&#128014;</string>-->
+<!--    <string name="animal_10">&#128028;</string>-->
+<!--    <string name="animal_11">&#128030;</string>-->
+<!--    <string name="animal_12">&#129414;</string>-->
+<!--    <string name="animal_13">&#128013;</string>-->
+<!--    <string name="animal_14">&#129416;</string>-->
+<!--    <string name="animal_15">&#128063;</string>-->
+<!--    <string name="animal_16">&#128010;</string>-->
+<!--    <string name="animal_17">&#128018;</string>-->
+<!--    <string name="animal_18">&#129430;</string>-->
+<!--    <string name="animal_19">&#129412;</string>-->
+<!--    <string name="animal_20">&#129418;</string>-->
+
+    <string name="go_to_start">Gå till start!</string>
+    <string name="placeholder">.</string>
+    <string name="already_won">Du har ju redan vunnit! Lämna tillbaka telefonen!</string>
+    <string name="game_data">game_data</string>
+    <string name="keep_alive">keep_alive</string>
+    <string name="animal_description">this is an animal</string>
+</resources>
